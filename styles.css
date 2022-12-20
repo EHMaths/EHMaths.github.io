@@ -81,6 +81,10 @@ ul li:before {
     content: '✓';
 }
 
+#blanky:before {
+    content: '';
+}
+
 li {
     color: #002060;
     font-size: 3vh; 
@@ -192,7 +196,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #002060;
+    color: #7F7F7F;
     margin: 0;
 }
 
@@ -246,4 +250,8 @@ td {
 th {
     padding-left: 50px;
     font-size: x-large;
+}
+
+::placeholder {
+    color: #969696;
 }
